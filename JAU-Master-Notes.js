@@ -267,6 +267,12 @@ function example () {  // store function definition of example, in Global memory
 3) Higher order function: outer function that takes in the
 
 
+c) Closure, Scope & Execution
+- closures give access to outer function's scope from an inner function 
+- return a function from a function
+PSEUDOCODE!!!
 
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BrwNJo0w9-8" frameborder="0" allowfullscreen></iframe>
+Our P.A.L. Leader is here to help you succeed.
+The P.A.L. (Peer Assisted Learning) program is a modified supplemental instruction support program for historically difficult first-year courses at Sheridan.  Students who excel in the course are employed as P.A.L. Leaders to help you to review notes, discuss readings, develop study skills and prepare for your tests and assignments.  P.A.L. Leaders work closely with your professor to support you and your class.
