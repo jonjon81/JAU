@@ -1,0 +1,26 @@
+Courses:
+
+1) JavaScript: The Hard Parts - Will Sentance, CSX
+Q&A: Global Memory & Call Stack 5:00
+
+2) Advanced React Patterns
+
+3) Deep JS Foundation
+
+4) CS50 Harvard - Computer Science
+
+5) Data Structures and Algorithms in JS
+
+6) Complete Intro to React
+
+7) Wes Boss ES6
+
+8) Wes Boss JS30
+
+9) Wes Boss Node
+
+10) Tyler McGinnis
+
+11) Udemy JS The Weird Parts
+
+12) React Course - Mateus Schwinder
