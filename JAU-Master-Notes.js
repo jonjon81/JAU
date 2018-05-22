@@ -273,6 +273,90 @@ c) Closure, Scope & Execution
 PSEUDOCODE!!!
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BrwNJo0w9-8" frameborder="0" allowfullscreen></iframe>
-Our P.A.L. Leader is here to help you succeed.
-The P.A.L. (Peer Assisted Learning) program is a modified supplemental instruction support program for historically difficult first-year courses at Sheridan.  Students who excel in the course are employed as P.A.L. Leaders to help you to review notes, discuss readings, develop study skills and prepare for your tests and assignments.  P.A.L. Leaders work closely with your professor to support you and your class.
+
+16) Temporal dead zone: 
+-using CONST, you can't use a const before it is created.
+
+17) const vs let
+- use const by default
+- only use let if rebinding is needed
+- var shouldn't be used in ES6
+
+18) Arrow functions */
+// always anonymous functions vs being a named function
+const names = ['first', 'second', 'third'];
+
+const fullNames = names.map(function(name) {
+  return `${name} Atlas`;
+})
+
+// to ES6: use Fat arrow
+
+const fullNames = names.map((name) => {
+  return `${name} Atlas`;
+})
+
+// if only have one parameter and can use implicit return
+const fullNames = names.map(name => `${name} Atlas`);
+
+// using filter
+const ages = [90,54,35,99,66]
+const old = ages.filter(age => age >= 60);
+
+// default function arguments
+function calculateBill(total, tax = 0.13, tip = 0.15) 
+const totalBill = calculateBill(100, undefined, 0.25);
+
+// 19: Attribute selector:   
+const items = document.querySelectorAll('[data-time]');
+
+// 20: Convert node list to array:  
+  // Select all the list items on the page and convert to array
+  const items = Array.from(document.querySelectorAll('[data-time]'));
+  // Filter for only the elements that contain the word 'flexbox'
+  const filtered = items
+    .filter(item => item.textContent.includes('Flexbox'))
+    // map down to a list of time strings
+    .map(item => item.dataset.time)
+    // map to an array of seconds
+    .map(timecode => {
+      const parts = timecode.split(':').map(part => parseFloat(part));
+      return (parts[0] * 60) + parts[1];
+    })
+  
+  // reduce to get total
+  .reduce((runningTotal, seconds) => runningTotal + seconds,0)
+
+
+//21 Template literals / template strings
+  `My dog ${name} is ${age * 7}`
+
+<script>
+  const person = {
+    name: 'Wes',
+    job: 'Web Developer',
+    city: 'Hamilton',
+    bio: 'Wes is a really cool guy that loves to teach web development!',
+  };
+  
+   const markup = `
+    <div class="person">
+      <h2>
+        ${person.name}
+        <span class="job">${person.job}</span>
+      </h2>
+      <p class="location">${person.city}</p>
+      <p class="bio">${person.bio}</p>
+    </div>
+  `;
+ 
+  document.body.innerHTML = markup;
+</script>
+
+// ES6 learning/syntax etc => 
+https://github.com/wesbos/es6.io
+
+
+// Focus: Javascript and Node (still just 20% of the 5 capacities which makes a great software engineer)
+// be clear on all the stuff you need to know for JS.
+// FS JS Senior dev role: 

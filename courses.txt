@@ -24,3 +24,8 @@ Q&A: Global Memory & Call Stack 5:00
 11) Udemy JS The Weird Parts
 
 12) React Course - Mateus Schwinder
+
+Today: 
+@ work: 
+openHouse: 
+transit:
