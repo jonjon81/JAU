@@ -25,7 +25,15 @@ Q&A: Global Memory & Call Stack 5:00
 
 12) React Course - Mateus Schwinder
 
-Today: 
-@ work: 
-openHouse: 
-transit:
+13) JavaScript: From Fundamentals to Functional JS
+
+14) React DOCS: https://reactjs.org/docs
+
+15) FreeCodeCamp: https://www.freecodecamp.org/jonjon81
+
+Total: 5
+Complete: 1.5
+Remaining: 3.5
+@ work: 2.5
+transit: 1.0
+

@@ -195,15 +195,8 @@ biancasHouse.countRibs() //"YUM!!"
 </script>
 
 
-// 11) ES6
+// 11) ES6 - Destructuring
 
-/*
-Fri: 5,
-Sat: 3,
-Sun: 3,
-Mon: 4,
-Tues 5
-*/
 
 // 12) Software developer Mid/Senior
 /*
@@ -360,3 +353,12 @@ https://github.com/wesbos/es6.io
 // Focus: Javascript and Node (still just 20% of the 5 capacities which makes a great software engineer)
 // be clear on all the stuff you need to know for JS.
 // FS JS Senior dev role: 
+// build tools for developer, not pretend user facing apps becuase of what the reason 
+// to elevate yourself above, build tools for deveopers, build libraries for developers and he will blow away your interviewers
+// tech resume: it will be read with. Must be dense with Software engineering content.  How/What/Why  - must present you in a season way
+// find all technical components of your prior experience.
+// must be a good story teller. 
+// *** empowered by needing more experience. 
+// Must be experience to USE solve actual problems.
+
+// Asynchronicity: https://jsbin.com/hijijag/1/edit?js,console,output
