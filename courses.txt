@@ -33,7 +33,23 @@ Q&A: Global Memory & Call Stack 5:00
 
 Total: 5
 Complete: 1.5
-Remaining: 3.5
-@ work: 2.5
-transit: 1.0
+Total remaining: 3.5
+@ work remaining: 2.5
+transit/home: 1
 
+react-tic-tac-toe directions
+    1) pass data from the Board component to the Square component. 
+    2) make square component fill in an "X" when you click it
+    3) Store the state in the Board component
+    4) Change square to a functional component
+
+
+    5) pass down a function from Board to Square that gets called when the square is clicked. 
+    6) alernate placing X and O (ternary for setState)
+    7) update status text for next turn
+    8) see if someone has won
+    9) change handleClick in Board to return early and ignore the click if someone has already won the game or if a square is already filled
+
+
+    10) store history
+    11) 
